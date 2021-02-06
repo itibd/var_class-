@@ -32,9 +32,14 @@ func main(){
 	fmt.Println(num, " is posetive")
 	}
 */
-if num:= 9; num<0{
-	fmt.Println(num, "is negative")
-}else{
-	fmt.Println(num, "is posetive")
-}
+//if num:= 9; num<0{
+//	fmt.Println(num, "is negative")
+//}else{
+//	fmt.Println(num, "is posetive")
+//}
+fmt.Println(true && true)
+fmt.Println(true && false)
+fmt.Println(true || true)
+fmt.Println(true || false)
+fmt.Println(!true)
 }
